@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake TENANT</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+      <header>
+         <div id="title">
+            Projet Snake TENANT Gautier
+         </div>
+         <div id="line">
+         </div>
+      </header>
+      <br>
+      <div id= "contenu">
+      <div id="form">
+         <form>
+            <label><input name="choix" type="radio" value="lvl1" checked> Facile </label>
+				<label><input name="choix" type="radio" value="lvl2"> Moyen </label>
+				<label><input name="choix" type="radio" value="lvl3"> Extrême </label>
+         </form>
+         <br>
+         <button id="btn"> Lancer le jeu </button>
+      </div>
+      <br>
+     <div id="divscore">
+        Score : <span id="score">0</span>
+     </div>
+     <div id="canvas">
+        <canvas id ="zone_snake" style="border:1px solid red"></canvas>
+     </div>              
+   </div>
+    <script type="text/javascript" src="snake.js" ></script>
+</body>
+</html>
